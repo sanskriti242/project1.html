@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(63 63 63 / 21%);
+    width: 7vw;
+    font-family: 'Playfair Display', serif;
+    padding: 65px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 27px;
+    padding-top: 60px;
+    padding-bottom: 58px;
+    
+}
+.main{
+    width: 90vw;
+    padding-top: 50px;
+}
+.container{
+    display: flex;
+}
+.info{
+    background-color: rgb(63 63 63 / 32%);
+    height: 400px;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+.pic img{
+    display: flex;
+    height: 400px;
+    float: right;
+    padding-top: 0px;
+}
+.me{
+    font-family: 'Quintessential', cursive;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    padding-left: 50px;
+    padding-right: 120px;
+    font-size: 25px;
+}
+.contact{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-image: url('n.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 1350px;
+    margin: 0px;
+    padding-top: 100px;
+    color: rgb(233, 232, 229);
+}
+.education{
+    font-family: 'Playfair Display', serif;
+    padding-left: 80px;
+    background-color: rgb(63 63 63 / 32%);
+    color: rgb(233, 232, 229);
+    height: 690px;
+    width: 2000px;
+    margin: 0px;
+    padding-top: 60px;
+    font-size: 25px;
+    color: rgb(7 147 185);
+}
+.skill{
+    font-family: 'Playfair Display', serif;
+    padding-left: 300px;
+    background-color: rgb(63 63 63 / 32%);
+    color: rgb(233, 232, 229);
+    height: 690px;
+    width: 2000px;
+    margin: 0px;
+    padding-top: 60px;
+    font-size: 25px;
+    color: rgb(7 147 185);
+}
+.sidebar nav li a{
+    color: rgb(7 147 185);
+}
+.name{
+    color: rgb(7 147 185);
+}
+.td{
+    text-align: center;
+}
+th{
+    background-color: rgb(7 147 185);
+}
+.edu{
+    width: 100vh;
+}
+#th{
+    width: 50%;
+}
+.image1 img{
+    height: 200px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: rgb(7 147 185);
+}
+.image2 img{
+    height: 270px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: rgb(7 147 185);
+}
+
+.ach{
+    padding-left: 25px;
+    color: rgb(7 147 185);
+    background-color: rgb(63 63 63 / 32%);
+    padding-right: 99px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
